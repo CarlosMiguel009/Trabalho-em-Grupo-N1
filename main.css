@@ -1,0 +1,167 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+
+}
+
+body {
+    background-color: #000;
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+    padding: 40px 4%;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-TI {
+    height: 150px;
+    width: 150px;
+    display: flex;
+}
+
+header a{
+    color: rgb(95, 95, 95);
+    text-decoration: none;
+    display: inline-block;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.08);
+    transition: .2s;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 50px;
+}
+
+header .btn-inicio button {
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #fff;
+    color: #000;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+header .btn-inicio button:hover {
+    box-shadow: 0px 0px 9px #fff;
+}
+
+section.topo {
+    padding: 40px 4%;
+}
+
+section.topo .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo h1 {
+    color: #fff;
+    font-size: 60px;
+}
+
+.topo .txt-topo span {
+    color:rgb(3, 209, 209);
+}
+
+.topo .txt-topo p {
+    color: #fff;
+    margin: 40px 0;
+}
+
+.btn-comece-aqui button {
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: rgb(3, 209, 209);
+    color: #000;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-comece-aqui button:hover {
+    box-shadow: 0px 0px 9px rgb(0, 255, 255);
+    transform: scale(1.08);
+    transition: .2s;
+}
+
+.btn-comece-aqui a {
+    margin: 10px;
+}
+
+.topo .img-topo img {
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 25px;
+    }
+}
+
+
+
+
+span-n {
+    font-weight: 900;
+}
+
+span-i {
+    font-style: italic;
+}
+
+.btn-navegacao button {
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: rgb(3, 209, 209);
+    color: #000;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-navegacao button:hover {
+    box-shadow: 0px 0px 9px rgb(0, 255, 255);
+    transform: scale(1.08);
+    transition: .2s;
+}
+
+.btn-navegacao a {
+    margin: 10px;
+}
